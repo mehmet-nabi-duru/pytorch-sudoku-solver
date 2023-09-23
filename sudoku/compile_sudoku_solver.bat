@@ -1,0 +1,1 @@
+gcc -shared -o sudoku38.pyd -I"user\Python38\include" .\sudoku_solver.c -L"user\Python38\libs" -lpython38
